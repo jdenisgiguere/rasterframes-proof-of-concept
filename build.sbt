@@ -28,8 +28,8 @@ connectInput in run := true
 
 libraryDependencies ++= Seq(
   "org.locationtech.sfcurve" %% "sfcurve-zorder" % "0.2.1-SNAPSHOT",
-  "org.locationtech.rasterframes" %% "rasterframes" % "0.7.0",
-  "org.locationtech.rasterframes" %% "rasterframes-datasource" % "0.7.0",
+  "org.locationtech.rasterframes" %% "rasterframes" % "0.8.0-RC2",
+  "org.locationtech.rasterframes" %% "rasterframes-datasource" % "0.8.0-RC2",
   "org.apache.spark" %% "spark-core" % "2.3.1",
   "org.apache.spark" %% "spark-sql" % "2.3.1",
   "com.typesafe.akka" %% "akka-actor"  % "2.4.3",
