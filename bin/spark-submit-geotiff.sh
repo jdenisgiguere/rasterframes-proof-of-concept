@@ -1,0 +1,2 @@
+#!/bin/bash
+spark-submit  --packages org.locationtech.sfcurve:sfcurve-zorder_2.11:0.2.1-SNAPSHOT,org.locationtech.rasterframes:rasterframes-datasource_2.11:0.8.0-RC2,org.locationtech.rasterframes:rasterframes_2.11:0.8.0-RC2,org.apache.spark:spark-sql_2.11:2.3.1,org.apache.spark:spark-core_2.11:2.3.1 /data/workspace/rasterframes-proof-of-concept/target/scala-2.11/rasterframes-proof-of-concept_2.11-0.1.0.jar
