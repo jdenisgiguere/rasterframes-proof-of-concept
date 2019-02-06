@@ -1,0 +1,1 @@
+spark-submit --packages io.astraea:pyrasterframes:0.8.0-SNAPSHOT --jars /home/hadoop/.local/lib/python3.5/site-packages/geopyspark-0.4.2-py3.5.egg/geopyspark/jars/geotrellis-backend-assembly-0.4.2.jar  --master local[4] --driver-memory 4G --executor-memory 4G ../python/read-geotrellis.py 
