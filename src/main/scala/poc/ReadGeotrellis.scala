@@ -21,6 +21,10 @@ object ReadGeotrellis {
   val catalog = spark.read.geotrellisCatalog(catalogUri)
   catalog.printSchema
 
+  val layer = catalog.select(geotrellis_layer).first
+  val rf =  spark.read.geotrellis.loadRF(layer)
+  rf.show()
+
 
   }
 }
